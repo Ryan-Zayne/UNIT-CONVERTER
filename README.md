@@ -1,3 +1,3 @@
 # UNIT-CONVERTER
 
-Basical a metric/imperial unit converter
+Basically a metric/imperial unit converter
