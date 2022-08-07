@@ -20,7 +20,7 @@ body{
     color: #fff;
     line-height: 1.6;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
