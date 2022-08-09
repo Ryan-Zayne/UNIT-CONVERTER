@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap");
 
 *,
 ::before,
@@ -13,9 +12,9 @@ html {
     font-size: 10px;
 }
 
-body{
+body {
     font-size: 1.6rem;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     background-color: #12161d;
     color: #fff;
     line-height: 1.6;
@@ -26,8 +25,8 @@ body{
 }
 
 h1 {
-   font-size: 2.4rem;
-   margin: 2.2rem 0;
+    font-size: 2.4rem;
+    margin: 2.2rem 0;
 }
 
 button {
@@ -39,27 +38,25 @@ button {
     background-color: inherit;
 }
 
-
-
-.full-wrapper{
+.full-wrapper {
     margin: 2rem 0 0;
     width: min(100%, 45rem);
     background-color: rgba(31, 41, 55, 0.5);
     border-radius: 5px;
 }
 
-.header{
+.header {
     border-radius: 5px 5px 0 0;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    background-color: #6943FF;
+    background-color: #6943ff;
 }
 
-input[type="number"]{
-    border: 2px solid #B295FF;
+input[type="number"] {
+    border: 2px solid #b295ff;
     background-color: inherit;
     width: 10rem;
     border-radius: 5px;
@@ -71,17 +68,17 @@ input[type="number"]{
     padding: 0.6rem 0;
 }
 
-input[type="number"]:focus{
+input[type="number"]:focus {
     outline: none;
 }
 
-.btn{
+.btn {
     position: relative;
     margin: 2rem 0;
     padding: 0.6rem 0;
     width: 10rem;
     font-size: inherit;
-    color:  #3D3D3D;
+    color: #3d3d3d;
     background-color: white;
     border-radius: 5px;
 }
@@ -100,25 +97,25 @@ input[type="number"]:focus{
     box-shadow: 0 0 15px 5px whitesmoke;
 }
 
-.btn:active{
+.btn:active {
     transform: scale(0.98);
 }
 
-.btn:active::after{
+.btn:active::after {
     border-radius: 6px;
     box-shadow: 0 0 0 0 whitesmoke;
     opacity: 1;
     transition: 0s;
 }
 
-.card-section{
+.card-section {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     margin: 3rem 2rem 2.5rem;
 }
 
-.cards{
+.cards {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -129,12 +126,12 @@ input[type="number"]:focus{
     border-radius: 4px;
 }
 
-.cards > p{
+.cards>p {
     font-weight: 600;
-    color: #CCC1FF;
+    color: #ccc1ff;
 }
 
-span.result-holder{
+span.result-holder {
     font-size: 1.3rem;
     color: white;
 }
