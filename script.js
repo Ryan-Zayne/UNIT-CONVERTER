@@ -7,6 +7,10 @@ const inputEl = document.getElementById("input-el"),
 buttonEl.addEventListener("click", conversion);  
 inputEl.addEventListener("input", clear)
 
+
+/**
+ * This function converts the input value to the desired unit
+ */
 function conversion() {
 	const meterConv = inputEl.value * 3.28,
 		feetConv = inputEl.value / 3.28,
@@ -35,6 +39,9 @@ function conversion() {
 }
 
 
+/**
+ * Clears the cards if the input is empty.
+ */
 function clear() {
 	if (inputEl.value == "") {
 		massCard.textContent = volumeCard.textContent = lengthCard.textContent = "";
