@@ -19,7 +19,6 @@ function conversion() {
 		kilogramConv = inputEl.value * 2.204,
 		poundsConv = inputEl.value / 2.204;
 
-
 	if (inputEl.value > 0 ) {
 		lengthCard.textContent = `${inputEl.value} meters = ${meterConv.toFixed(3)} feet 
 									|
