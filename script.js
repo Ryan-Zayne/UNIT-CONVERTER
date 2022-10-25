@@ -5,7 +5,7 @@ const inputEl = document.getElementById("input-el"),
 	massCard = document.querySelectorAll(".result-holder")[2];
 
 buttonEl.addEventListener("click", conversion);
-inputEl.addEventListener("input", clear);
+inputEl.addEventListener("input", clearCards);
 
 
 /**
